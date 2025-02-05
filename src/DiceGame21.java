@@ -36,7 +36,6 @@ public class DiceGame21 {
             int playerTotal = playerTurn(scanner);
             if (playerTotal > 21) {
                 System.out.println("You went over 21! Max wins this round!");
-                System.out.println("You went over 21! Max wins this round!");
                 maxScore++;
             } else {
                 int maxTotal = maxTurn();
